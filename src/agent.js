@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'http://chirag-cicdmern.rtd.squareops.co.in:4500/';
+const API_ROOT = 'http://chirag-cicdmern.rtd.squareops.co.in/api:4500';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
